@@ -1,5 +1,5 @@
 import style from "./footer.module.scss"
-import logo from '../../assets/Hancock logo.png'
+import Logo from '../../assets/Hancock logo.png'
 
 export const Footer = () => {
     return (
@@ -11,7 +11,7 @@ export const Footer = () => {
                     <input type="text" />
                     <button>Tilmeld</button>
                 </form>
-                <img src={logo} alt="Hancock logo" />
+                <img src={Logo} alt="Hancock logo" />
             </section>
         </footer>
     )
