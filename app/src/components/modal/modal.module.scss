@@ -1,0 +1,18 @@
+.modalBg {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(90, 90, 90, 0.6);
+    z-index: 2;
+}
+
+.modal {
+    border-radius: 4px;
+    width: 60vw;
+    margin: auto;
+    z-index: 3;
+    background-color: rgb(240, 240, 240);
+    margin-top: 20vh;
+}

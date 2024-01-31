@@ -1,0 +1,18 @@
+.newsCardWrapper {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
+  
+  .newsDetailsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 16px;
+  
+    img {
+      width: 100%;
+    }
+  }
